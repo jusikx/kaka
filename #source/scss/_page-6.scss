@@ -1,0 +1,28 @@
+.page-6 {
+    
+    &_container {
+        @include container(1400, 0, 113, 120, 113, column, center, center, 15, 10, 15, 10);
+    }
+    .buttons {
+        &_link {
+            display: inline-block;
+            padding: 14.2px 30.5px 13.8px 33.5px;
+            border: solid 2px #00897b;
+            &:first-child{
+                background-color: #00897b;
+            }
+            @include margin(83, 0, 0, 0, 25, 0, 0, 0, 1400);
+        }
+    
+        &_item {
+            text-transform: uppercase;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 600;
+            line-height: 1.1;
+            letter-spacing: 1px;
+            text-align: center;
+        }
+    }
+}
+
